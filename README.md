@@ -133,13 +133,13 @@ The dashboard displays generated labels such as `EMP0001`, `EMP0002` and so on b
 
 - `app.py` — Streamlit dashboard
 - `employee_data.csv` — supplied employee dataset
-- `employee_attrition_model_bundle_vscode.joblib` — fitted model and preprocessing bundle
-- `ML_Employee_Attrition_Prediction_VSCode_Compatible.ipynb` — project notebook
-- `rebuild_model_vscode.py` — local model-bundle rebuild script
+- `employee_attrition_model.joblib` — fitted model and preprocessing bundle
+- `ML_Employee_Attrition_Prediction.ipynb` — project notebook
+- `train_model.py` — local model-bundle rebuild script
 - `check_project.py` — basic project and model-bundle check
 - `assets/` — 15 exported notebook figures
-- `Employee_Attrition_Executive_Summary.pdf` — short project summary
-- `Employee_Attrition_Research_Paper_Dev_Rishi_Mishra.pdf` — detailed research paper
+- `Executive_Summary.pdf` — short project summary
+- `Employee_Attrition_Research_Paper.pdf` — detailed research paper
 - `Project_Requirements.pdf` — project brief supplied for this work
 
 ## 8. Run the dashboard
