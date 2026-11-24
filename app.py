@@ -98,7 +98,7 @@ def chart_layout(fig, height=340):
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "employee_data.csv"
-MODEL_PATH = BASE_DIR / "employee_attrition_model_bundle_vscode.joblib"
+MODEL_PATH = BASE_DIR / "employee_attrition_model.joblib"
 
 # The feature engineering below must remain consistent with the model
 # trained in the project notebook.
@@ -672,3 +672,4 @@ st.caption(
     "data and should not be used as the sole basis for employment decisions. "
     "Review context, data quality, fairness and human judgment before taking action."
 )
+
